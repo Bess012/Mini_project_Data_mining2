@@ -1,0 +1,16 @@
+{
+  "models": {
+    "lr": "Régression logistique pondérée",
+    "xgb": "XGBoost",
+    "if": "Isolation Forest",
+    "lof": "Local Outlier Factor",
+    "ae": "Autoencodeur"
+  },
+  "final_model": "xgb",
+  "threshold": 0.0487191304564476,
+  "review_cost": 5.0,
+  "budget_per_day": 15,
+  "chosen_strategy": "poids_complet",
+  "n_days_val": 41.58263888888889,
+  "n_days_test": 24.433645833333333
+}

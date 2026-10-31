@@ -1,0 +1,35 @@
+feature,label
+amt,Montant
+log_amt,Montant (log)
+hour_sin,Heure (sin)
+hour_cos,Heure (cos)
+dow,Jour de la semaine
+is_weekend,Week-end
+is_night,Transaction de nuit
+age,Âge du client
+log_city_pop,Population de la ville (log)
+gender_M,Client de genre masculin
+dist_home_merch_km,Distance domicile-marchand (km)
+n_tx_1h,Nb de transactions sur 1 h
+n_tx_24h,Nb de transactions sur 24 h
+n_tx_30d,Nb de transactions sur 30 j
+amt_sum_24h,Montant cumulé sur 24 h
+amt_ratio_30d,Montant / moyenne 30 j de la carte
+log_secs_since_prev,Temps depuis transaction précédente (log s)
+dist_prev_merch_km,Distance au marchand précédent (km)
+speed_kmh,Vitesse implicite entre marchands (km/h)
+is_first_tx,Première transaction connue de la carte
+cat_entertainment,Catégorie : entertainment
+cat_food_dining,Catégorie : food_dining
+cat_gas_transport,Catégorie : gas_transport
+cat_grocery_net,Catégorie : grocery_net
+cat_grocery_pos,Catégorie : grocery_pos
+cat_health_fitness,Catégorie : health_fitness
+cat_home,Catégorie : home
+cat_kids_pets,Catégorie : kids_pets
+cat_misc_net,Catégorie : misc_net
+cat_misc_pos,Catégorie : misc_pos
+cat_personal_care,Catégorie : personal_care
+cat_shopping_net,Catégorie : shopping_net
+cat_shopping_pos,Catégorie : shopping_pos
+cat_travel,Catégorie : travel
