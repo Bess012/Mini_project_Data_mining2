@@ -742,7 +742,8 @@ def page_live():
          "Saisissez une transaction : elle est envoyée à l'API de scoring (historique de la carte, score, décision, "
          "codes motifs) et une courte explication vous dit pourquoi elle est jugée frauduleuse ou non.")
     try:
-        h = api_client.health()
+        with st.spinner("Connexion à l'API de scoring (démarrage au premier appel)…"):
+            h = api_client.ensure_api()
     except api_client.ApiError as e:
         st.error(f"{e}. Démarrer l'API dans un autre terminal : `uvicorn api.main:app --port 8000` "
                  "(URL modifiable via la variable FRAUD_API_URL).")
